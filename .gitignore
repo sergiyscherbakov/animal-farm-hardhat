@@ -1,0 +1,56 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Hardhat files
+cache/
+artifacts/
+typechain/
+typechain-types/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Coverage
+coverage/
+coverage.json
+
+# Build files
+build/
+dist/
+
+# Video files
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.flv
+*.wmv
+
+# Large image files (screenshots можна залишити, але великі файли виключити)
+# *.jpg
+# *.jpeg
+# *.png
+
+# Office documents (можна залишити txt, але docx виключити)
+*.docx
+
+# Hardhat ignition deployments
+ignition/deployments/
